@@ -49,7 +49,7 @@ resumeFormElement === null || resumeFormElement === void 0 ? void 0 : resumeForm
         li.textContent = skill.trim();
         skillsList.appendChild(li);
     });
-    document.querySelector('#work-info').textContent = workInput;
+    document.querySelector('#work-infom').textContent = workInput;
 
     // Hide the form after submission
     resumeForm.style.display = 'none';
@@ -61,7 +61,7 @@ resumeFormElement === null || resumeFormElement === void 0 ? void 0 : resumeForm
 // Make the Form editable
 
 const edit_resume = document.querySelector("#edit-resume").addEventListener('click', function() {
-    toggleEditableSection("#display-name", "#display-email", "#skills-list", "#education-info", "#work-info");
+    toggleEditableSection("#display-name", "#display-email", "#skills-list", "#education-info", "#work-infom", "#name", "#contact");
 });
 
 // // Helper function to toggle contentEditable on a section
